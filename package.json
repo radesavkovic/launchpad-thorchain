@@ -1,0 +1,35 @@
+{
+  "name": "thorstarter-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "3.0.0",
+    "@nomiclabs/hardhat-solhint": "2.0.0",
+    "@nomiclabs/hardhat-waffle": "2.0.1",
+    "@openzeppelin/contracts": "4.3.2",
+    "@openzeppelin/contracts-upgradeable": "4.3.2",
+    "hardhat": "2.2.1",
+    "hardhat-gas-reporter": "1.0.4",
+    "solidity-coverage": "0.7.16"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "2.0.2",
+    "@openzeppelin/hardhat-upgrades": "1.10.0",
+    "@openzeppelin/test-environment": "0.1.9",
+    "@openzeppelin/test-helpers": "0.5.10",
+    "chai": "4.3.4",
+    "ethereum-waffle": "3.3.0",
+    "ethers": "5.1.4",
+    "keccak256": "1.0.3",
+    "merkletreejs": "0.2.24"
+  }
+}
